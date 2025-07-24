@@ -13,6 +13,7 @@ body {
     background-color: #140439 !important;
     background: linear-gradient(to right, #000, #130F40);
     color: white;
+    overflow-x: hidden;
 }
 
 li,

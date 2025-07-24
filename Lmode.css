@@ -12,6 +12,7 @@ body {
     background-color: #ebfbc6;
     background: linear-gradient(to right, #ffffff, #ecf0bf);
     color: rgb(0, 0, 0);
+    overflow-x: hidden;
 
 }
 

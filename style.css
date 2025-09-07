@@ -548,3 +548,226 @@ footer p {
     margin: 0;
     padding: 0;
 }
+
+
+
+@media screen and (max-width: 1200px) {
+    .home-text h1 {
+        font-size: 48px;
+    }
+    .Sbox {
+        padding: 40px 30px;
+    }
+    .Pbox video {
+        width: 350px;
+    }
+    .Himg iframe {
+        width: 400px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        padding: 1px 30px;
+    }
+    .home {
+        flex-direction: column;
+        width: 98vw;
+        gap: 30px;
+    }
+    .home-text {
+        width: 90%;
+    }
+    .Sbox {
+        grid-template-columns: 1fr 1fr;
+        width: 90%;
+        padding: 30px 10px;
+    }
+    .container {
+        gap: 40px;
+    }
+    .sec5 {
+        flex-direction: column;
+        width: 90vw;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+    .Lbts {
+        width: 100%;
+        margin-left: 0;
+    }
+    footer {
+        width: 90vw;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .social {
+        padding-right: 0;
+        width: 100%;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 5vw;
+        gap: 10px;
+    }
+    .btns {
+        width: 100%;
+        justify-content: flex-end;
+        margin-top: 10px;
+    }
+    .nav-links li {
+        padding: 0 10px;
+    }
+    .home-text h1 {
+        font-size: 32px;
+        width: 100%;
+    }
+    .home-text p {
+        font-size: 18px;
+        margin: 10px 0;
+        width: 100%;
+    }
+    .Sbox {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 20px 0;
+    }
+    .container {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .Pbox video {
+        width: 90vw;
+        max-width: 350px;
+    }
+    .sec2 h1, .sec3 h1 {
+        font-size: 32px;
+    }
+    .sec2, .sec3, .sec4 {
+        width: 100vw;
+    }
+    .sec5 {
+        width: 98vw;
+        padding: 10px 2vw;
+    }
+    .Lbts {
+        width: 100%;
+        margin: 0;
+    }
+    .Himg iframe {
+        width: 90vw;
+        height: 180px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 5px 2vw;
+        gap: 5px;
+    }
+    .btns {
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 5px;
+    }
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+    .nav-links li {
+        display: block;
+        padding: 5px 0;
+    }
+    .home {
+        flex-direction: column;
+        width: 100vw;
+        gap: 10px;
+    }
+    .home-text {
+        width: 98vw;
+        padding: 0 1vw;
+    }
+    .home-text h1 {
+        font-size: 22px;
+    }
+    .Sbox {
+        grid-template-columns: 1fr;
+        width: 100vw;
+        padding: 10px 0;
+        gap: 10px;
+    }
+    .Skills {
+        width: 70px;
+        height: 70px;
+        padding: 2%;
+    }
+    .Pbox video {
+        width: 98vw;
+        max-width: 250px;
+    }
+    .Pbox {
+        padding: 10px;
+    }
+    .sec2 h1, .sec3 h1 {
+        font-size: 22px;
+    }
+    .sec2 > p, .sec3 > p {
+        font-size: 14px;
+    }
+    .sec5 {
+        flex-direction: column;
+        width: 100vw;
+        padding: 5px 1vw;
+        font-size: 14px;
+    }
+    .Lbts {
+        width: 100%;
+        margin: 0;
+    }
+    footer {
+        width: 100vw;
+        flex-direction: column;
+        gap: 5px;
+        font-size: 12px;
+    }
+    .social {
+        width: 100vw;
+        gap: 5px;
+        padding-right: 0;
+    }
+    .Himg iframe {
+        width: 98vw;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-text h1 {
+        font-size: 16px;
+    }
+    .btn, .btn1, .btn2, .Lbtn {
+        font-size: 12px;
+        padding: 6px;
+    }
+    .Skills {
+        width: 50px;
+        height: 50px;
+    }
+    .Pbox video {
+        max-width: 150px;
+    }
+    .sec2 h1, .sec3 h1 {
+        font-size: 16px;
+    }
+}
